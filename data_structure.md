@@ -1,14 +1,18 @@
 {% include navigation.html %}
 
-### Mini Labs
-[Replit animation](https://replit.com/@PaigeMcCartin/menu-challenge#main.py)
-[Replit menu](https://replit.com/@PaigeMcCartin/menulab#main.py)
+### Mini Labs Week 0
+[Animation](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/animation.py)
+[Menu](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/menu.py)
+[Swap](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/swap.py)
+[Matrix](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/matrix.py)
 
-Duplicates the code but changes how I want the “barrel” to look. Each “ship” that was defined is changed and some dashes are added.
+
 
 <div class=“row justify-content-center” style=“margin: 2%;“>
-    <iframe height=“1000px” width=“700px” src=“https://replit.com/@PaigeMcCartin/menu-challenge?lite=true#main.py”></iframe>
+    <iframe height=“1000px” width=“700px” src=“https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/matrix.py”></iframe>
 </div>
+
 <div class=“row justify-content-center” style=“margin: 2%;“>
-    <iframe height=“1000px” width=“700px” src=“https://replit.com/@PaigeMcCartin/menulab?lite=true#main.py”></iframe>
+    <iframe height=“1000px” width=“700px” src=“https://replit.com/@PaigeMcCartin/menulab?lite=true#main.py”></iframe> 
 </div>
+
