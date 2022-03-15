@@ -10,10 +10,10 @@
 
 
 <div class=“row justify-content-center” style=“margin: 2%;“>
-    <iframe height=“1000px” width=“700px” src=“https://replit.com/@NatalieCohen/nataliecohengithubio-3#mini_labs/animation.py”></iframe>
+    <iframe height=“1000px” width=“700px” src=“https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/menu.py”></iframe>
 </div>
 
 <div class=“row justify-content-center” style=“margin: 2%;“>
-    <iframe height=“1000px” width=“700px” src=“https://replit.com/@PaigeMcCartin/menulab?lite=true#main.py”></iframe> 
+    <iframe height=“1000px” width=“700px” src=“https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/swap.py”></iframe> 
 </div>
 
