@@ -1,10 +1,10 @@
 {% include navigation.html %}
 
 ### Mini Labs Week 0
-[Animation](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/animation.py)
-[Menu](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/menu.py)
-[Swap](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/swap.py)
-[Matrix](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/matrix.py)
+- [Animation](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/animation.py)
+- [Menu](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/menu.py)
+- [Swap](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/swap.py)
+- [Matrix](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1#mini_labs/matrix.py)
 
 
 
