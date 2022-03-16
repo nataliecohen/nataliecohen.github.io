@@ -13,7 +13,7 @@
   - Red Tape is blocking full digital empowerment at Del Norte. At Del Norte we have very limited access, and as a student who is interested in computer science I find it very limiting on the things I can do as I have very limited access on the internet at Del Norte.
 
 ### Week 1: TPT 5.3, 5.4 and TT1
-#### Computing Bias 5.3
+#### 5.3 Computing Bias 
 
 #### Does the owner of the computer think this was intentional? If yes or no, justify your conclusion.
 - Based on the video, I do not think the owner of the computer believes that this was the intention. I do not think the owner believes that the computer company purposefully decided to make the computer to where it does not face track black people.  
@@ -24,4 +24,8 @@
 #### Should it be corrected?
 - Yes! This problem needs to be addressed ASAP because it can give a bad rep for the company as they are seen as ‘racist’ against a certain population of people which could be very harmful to the company. 
 #### What would you or should you do to produce a better outcome?
-- I would relook at all of the program because there is obviously a major flaw within the program that needs to be fixed. I would also take all of the computers off of the market and create an apology statement saying that we are a company that does not stand for this, while making a new computer that fully fixes this problem. 
+- I would relook at all of the program because there is obviously a major flaw within the program that needs to be fixed. I would also take all of the computers off of the market and create an apology statement saying that we are a company that does not stand for this, while making a new computer that fully fixes this problem.
+
+#### 5.4 Crowdsourcing 
+- One way to introduce Crowdsourcing into our enviornment is by allowing for rapid feedback from people who are interested and know CSP to allow for improvments and lack of bias because of the different people contributing to the edits being made. 
+- Del Norte crowdsources with the peer grading stratefy that my english class uses. I present my piece of writing to roughly 10 people and I get instant feedback on what I need to do better. Althought this is not crowdsouring on a huge level, this can been seen as a small level of crowdsourcing used daily at Del Norte. By implementing this in my final project it would allow for feedback within a short time frame and to me more efficent when using your time. 
