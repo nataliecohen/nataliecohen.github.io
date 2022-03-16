@@ -12,6 +12,7 @@
   - Something I could do to help empower someone who does not feel empowered is educate people about the digital divide and emphasize that we are very privileged where we live at Del Norte and that we should give back to those who are not as fortunate.
   - Red Tape is blocking full digital empowerment at Del Norte. At Del Norte we have very limited access, and as a student who is interested in computer science I find it very limiting on the things I can do as I have very limited access on the internet at Del Norte.
 
+### Week 1: TPT 5.3, 5.4 and TT1
 #### Computing Bias 5.3
 
 #### Does the owner of the computer think this was intentional? If yes or no, justify your conclusion.
