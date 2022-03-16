@@ -15,21 +15,12 @@
 #### Computing Bias 5.3
 
 #### Does the owner of the computer think this was intentional? If yes or no, justify your conclusion.
-
 - Based on the video, I do not think the owner of the computer believes that this was the intention. I do not think the owner believes that the computer company purposefully decided to make the computer to where it does not face track black people.  
-
 #### How do you think this happened?
-
 - Something within the computer programming must be flawed to where it does not pick up ‘darker skin colors’. 
-
 #### Is this harmful? Was it intended to be harmful or excluded?
-
 - I do not believe that it was meant to be harmful in any way, but it can be seen as a very detrimental flaw that can lead people to believe that not necessarily the computer itself is racist, but the owners of the company have different morals and beliefs that they portray within their products. 
-
 #### Should it be corrected?
-
 - Yes! This problem needs to be addressed ASAP because it can give a bad rep for the company as they are seen as ‘racist’ against a certain population of people which could be very harmful to the company. 
-
 #### What would you or should you do to produce a better outcome?
-
 - I would relook at all of the program because there is obviously a major flaw within the program that needs to be fixed. I would also take all of the computers off of the market and create an apology statement saying that we are a company that does not stand for this, while making a new computer that fully fixes this problem. 
