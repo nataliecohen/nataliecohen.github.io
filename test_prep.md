@@ -11,3 +11,4 @@
   - There are many ways people are able to empower themselves digitally, people use social media to express themselves and they are able to expand what they love and share what they love with millions of people around the world.
   - Something I could do to help empower someone who does not feel empowered is educate people about the digital divide and emphasize that we are very privileged where we live at Del Norte and that we should give back to those who are not as fortunate.
   - Red Tape is blocking full digital empowerment at Del Norte. At Del Norte we have very limited access, and as a student who is interested in computer science I find it very limiting on the things I can do as I have very limited access on the internet at Del Norte.
+
