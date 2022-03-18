@@ -2,7 +2,7 @@
 
 ## Natalie's GitHub Page
 
-- [Replit Runtime - Cohen](https://replit.com/@NatalieCohen/nataliecohengithubio-3?v=1)
+- [Replit Runtime - Cohen](https://replit.com/@NatalieCohen/nataliecohengithubio-4#.replit)
 - [Github link](https://github.com/nataliecohen/nataliecohen.github.io)
 
 
