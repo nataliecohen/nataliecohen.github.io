@@ -11,15 +11,6 @@ InfoDb.append({
                "Favorite_Sports":["Field Hockey","Soccer","Softball","Lacrosse", "Swimming"]  
               })  
 
-InfoDb.append({  
-               "FirstName": "Nicole",  
-               "LastName": "Anderson",  
-               "DOB": "April 5",  
-               "Birthplace": "San Diego",  
-               "Email": "nicolejanderson@gmail.com",  
-               "Favorite_Sports":["A","B","C"], 
-              })  
-
 
 # given an index this will print InfoDb content
 def print_data(n):
@@ -39,22 +30,22 @@ def print_data(n):
 ## hack 2c : def recursive_loop(0)
 
 # for loop iterates on length of InfoDb
-def for_loop():
+def printFor():
     for n in range(len(InfoDb)):
         print_data(n)
 
 # while loop contains an initial n and an index incrementing statement (n += 1)
-def while_loop(n):
+def printWhile(n):
     while n < len(InfoDb):
         print_data(n)
         n += 1
     return
 
 # recursion simulates loop incrementing on each call (n + 1) until exit condition is met
-def recursive_loop(n):
+def printRecursive(n):
     if n < len(InfoDb):
         print_data(n)
-        recursive_loop(n + 1)
+        printRecursive(n + 1)
     return # exit condition
 
 # Factorial of a number using recursion
@@ -64,10 +55,24 @@ def recur_factorial(n):
     else:
         return n * recur_factorial(n-1)
 
+def fibonacci(a, b, n):
+    if n < 5:
+        c = a+b
+        print(c)
+        fibonacci(b,c,n+1)
+
 def tester():
-    print("For loop")
-    for_loop()
-    print("While loop")
-    while_loop(0)  # requires initial index to start while
-    print("Recursive loop")
-    recursive_loop(0)  # requires initial index to start recursion
+  print("For loop:")
+  printFor()
+  print("While loop:")
+  printWhile(0)
+  print("Recursive loop:")
+  printRecursive(0)
+tester()
+  
+
+fibonacci(1, 2, 3)
+  
+
+
+
