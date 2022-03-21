@@ -1,6 +1,6 @@
 {% include navigation.html %}
 
-[Review Ticket]: 
+[Review Ticket]:(https://github.com/nataliecohen/nataliecohen.github.io/issues/1)
 
 # Week 0
 ***
@@ -185,7 +185,6 @@ if __name__=='__main__':
 
 
 
-      
 
  
 
