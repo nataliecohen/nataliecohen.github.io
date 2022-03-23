@@ -1,5 +1,5 @@
 {% include navigation.html %}
-### Week 1: TPT 5.5, 5.6 and T2
+### Week 2: TPT 5.5, 5.6 and T2
 #### 5.5 Legal and Ethical Concerns 
 GitHub Actions: 
 - Software needs a license, opensource(protected), closedsource(protected)
