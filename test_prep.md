@@ -1,10 +1,29 @@
 {% include navigation.html %}
 ### Week 1: TPT 5.5, 5.6 and T2
 #### 5.5 Legal and Ethical Concerns 
-When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.
-Make a license for your personal and Team project. Document license you picked and why.
+GitHub Actions: 
+- Software needs a license, opensource(protected), closedsource(protected)
+  Creative commons = free and available 
+- GNU GPLv3 license because it is free for everybody. You wouldn’t have to worry about “stealing” patents. 
 
 #### 5.6 Safe Computing
+Notes: 
+PII: Personal Identifiable Information 
+-  When creating website we make a Searchable PII
+- PII Considerations: 3 Categories (Things known by everyone, more cautious, things to keep a secret) 
+- Multi-factor authentication helps to establish safety 
+- Increase Security of system: Multi Factor authentication, fingerprints/facial recognition, symmetric encryption 
+- Phishing is a way to get a virus on your machine 
+
+GitHub Actions: 
+
+1. PII examples I have seen in Comp Sci Projects include the addition of emails to websites, along with links to social media accounts. 
+2. I feel I have been very exposed towards PII. It is mainly self exposure through posting on social media, putting my birthday/email into websites which allows for people to have my information. I do not feel I am in danger of putting this information in place. 
+3. I would consider a good password to be that one is very personal to you and involves other characters other than just numbers and letters. Bad passwords would be simple and easily remembered passwords that many people would guess if they were given the chance to hack your account. 
+4. Symmetric encryption uses the same key to encrypt and decrypt data to make it very easy to use, as for asymmetric encryption it uses a public key to encrypt data and a private key to decrypt data. 
+5. An example of encryption we use in deployment is sharing our private URL and email to be able to deploy and send it to other members. 
+
+
 
 
 
