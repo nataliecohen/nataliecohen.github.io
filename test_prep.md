@@ -1,4 +1,12 @@
 {% include navigation.html %}
+### Week 1: TPT 5.5, 5.6 and T2
+#### 5.5 Legal and Ethical Concerns 
+When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.
+Make a license for your personal and Team project. Document license you picked and why.
+
+#### 5.6 Safe Computing
+
+
 
 ### Week 1: TPT 5.3, 5.4 and TT1
 #### 5.3 Computing Bias 
