@@ -2,7 +2,9 @@
 
 
 <div class="row justify-content-center" style="margin: 2%;">
-    <iframe height="1000px" width="700px" src="https://replit.com/@NatalieCohen/factorial-function#main.py?lite=true#main.py"></iframe>
+    <iframe height="1000px" width="700px" src="https://replit.com/@NatalieCohen/factorial-function?lite=true#main.py"></iframe>
 </div>
 
-https://replit.com/@NatalieCohen/factorial-function#main.py
+<div class="row justify-content-center" style="margin: 2%;">
+    <iframe height="1000px" width="700px" src="https://replit.com/@NatalieCohen/mathfuntion?lite=true#main.py"></iframe>
+</div>
