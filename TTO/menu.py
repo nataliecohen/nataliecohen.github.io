@@ -6,22 +6,23 @@ Writing a function to print a menu
 # Menu options in print statement
 import time
 from TT1 import fibonacci
-from TT1 import lists
+from TT1 import list
 from TT2 import factorial
 from TT2 import math
 
 def print_menu():
-    print('1 -- Stringy' )
-    print('2 -- Ice Cream' )
-    print('3 -- Matrix' )
-    print('4 -- Swap' )
-    print('5 -- Exit' )
+    print('1 -- Math' )
+    print('2 -- Animation' )
+    print('3 -- List' )
+    print('4 -- Exit' )
     runOptions()
  
 def mathMenu():
     print('1 -- Swap Numbers' )
     print('2 -- Factorial' )
     print('3 -- Fibonacci')
+    print('4 -- Factors')
+    print('5 -- Exit')
     runMathOptions()
 
 # Menu options as a dictionary
