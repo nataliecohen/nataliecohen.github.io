@@ -4,13 +4,25 @@ Writing a function to print a menu
 """
 
 # Menu options in print statement
-def print_menu1():
+import time
+from TT1 import fibonacci
+from TT1 import lists
+from TT2 import factorial
+from TT2 import math
+
+def print_menu():
     print('1 -- Stringy' )
     print('2 -- Ice Cream' )
     print('3 -- Matrix' )
     print('4 -- Swap' )
     print('5 -- Exit' )
     runOptions()
+ 
+def mathMenu():
+    print('1 -- Swap Numbers' )
+    print('2 -- Factorial' )
+    print('3 -- Fibonacci')
+    runMathOptions()
 
 # Menu options as a dictionary
 menu_options = {
