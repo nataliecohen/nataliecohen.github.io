@@ -1,4 +1,4 @@
-def fibonacci():
+def driver():
   num = int(input("Enter sequence length: "))
   if num < 0:
     print("Enter a number greater than 0")
@@ -11,3 +11,6 @@ def print_fib(i):
      return i  
   else:  
      return(print_fib(i-2) + print_fib(i-1))
+
+if __name__ == "__main__":
+    driver()

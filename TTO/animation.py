@@ -233,6 +233,9 @@ time.sleep(.5)
 os.system("clr")
 
 
+if __name__ == "__main__":
+    driver()
+
 
 
 

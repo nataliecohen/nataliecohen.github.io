@@ -2,7 +2,7 @@ class Factorial:
   def __init__(self):
         self.factorial = [1,1]
     
-def fact(): 
+def driver():
 	num = input("enter a number : ") 
 	fact = 1 
 	i = 1 
@@ -12,6 +12,11 @@ def fact():
 	 
 	print ("factorial of the number : %d" %fact) 
  
-fact() 
+fact()
+
+
+if __name__ == "__main__":
+	driver()
+
 
       

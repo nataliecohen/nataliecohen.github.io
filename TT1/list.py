@@ -61,7 +61,7 @@ def fibonacci(a, b, n):
         print(c)
         fibonacci(b,c,n+1)
 
-def tester():
+def driver():
   print("For loop:")
   printFor()
   print("While loop:")
@@ -72,7 +72,11 @@ tester()
   
 
 fibonacci(1, 2, 3)
-  
+
+
+if __name__ == "__main__":
+    driver()
+
 
 
 

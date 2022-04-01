@@ -1,22 +1,26 @@
+
+from TT1 import fibonacci,list
+from TT2 import factorial, factors
+from TT3 import animation, matrix, swap, tree
 main_menu = []
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
 week0_sub_menu = [
-    ["Animation", "TT0/animation.py"],
-    ["Tree", "TT0/tree.py"],
-    ["Matrix", "TT0/matrix.py"],
-    ["Swap", "TT0/swap.py"],
+    ["Animation", animation.driver],
+    ["Tree", tree.driver],
+    ["Matrix", matrix.driver],
+    ["Swap", swap.driver],
 ]
 
 week1_sub_menu = [
-    ["Fibonacci", "TT1/fibonacci.py"],
-    ["Lists", "TT1/list.py"],
+    ["Fibonacci", fibonacci.driver],
+    ["Lists", list.driver],
 ]
 
 week2_sub_menu = [
-    ["Factorials", "TT2/factorial.py"],
-    ["Factors", "TT2/factors.py"],
+    ["Factorials", factorial.driver],
+    ["Factors", factors.driver],
 
 
 
