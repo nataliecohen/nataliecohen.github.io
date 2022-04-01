@@ -2,8 +2,8 @@
 
 ## Natalie's GitHub Page
 
-- [Replit Runtime - Cohen](https://replit.com/@NatalieCohen/nataliecohengithubio-5?v=1)
-- [Github link](https://replit.com/@NatalieCohen/nataliecohengithubio-5?v=1)
+- [Replit Runtime - Cohen](https://replit.com/@NatalieCohen/nataliecohenrepl#.replit)
+- [Github link](https://github.com/nataliecohen/nataliecohen.github.io)
 
 
 
