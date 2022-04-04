@@ -14,10 +14,6 @@ class Factors:
       print("Cannot calculate")
 
 factors_of = Factors().__call__
-def driver ():
-  (factors_of(44))
+print(factors_of(44))
 
-#test nums: 5, 8, 10, 200, 44
-
-if __name__ == "__main__":
-  driver()
+#test nums: 5, 8, 10, 200, 44 

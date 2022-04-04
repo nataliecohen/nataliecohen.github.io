@@ -2,14 +2,14 @@
 
 InfoDb = []
 # List with dictionary records placed in a list  
-InfoDb.append({  
-               "FirstName": "Natalie",  
-               "LastName": "Cohen",  
-               "DOB": "January 23",  
-               "Birthplace": "San Diego",  
-               "Email": "eansmm.cohen@gmail.com",  
-               "Favorite_Sports":["Field Hockey","Soccer","Softball","Lacrosse", "Swimming"]  
-              })  
+InfoDb.append({
+    "FirstName": "Natalie",
+    "LastName": "Cohen",
+    "DOB": "January 23",
+    "Birthplace": "San Diego",
+    "Email": "eansmm.cohen@gmail.com",
+    "Favorite_Sports":["Field Hockey","Soccer","Softball","Lacrosse", "Swimming"]
+})
 
 
 # given an index this will print InfoDb content
@@ -62,21 +62,13 @@ def fibonacci(a, b, n):
         fibonacci(b,c,n+1)
 
 def driver():
-  print("For loop:")
-  printFor()
-  print("While loop:")
-  printWhile(0)
-  print("Recursive loop:")
-  printRecursive(0)
-tester()
-  
-
-fibonacci(1, 2, 3)
-
-
-if __name__ == "__main__":
-    driver()
-
+    print("For loop:")
+    printFor()
+    print("While loop:")
+    printWhile(0)
+    print("Recursive loop:")
+    printRecursive(0)
+driver()
 
 
 
