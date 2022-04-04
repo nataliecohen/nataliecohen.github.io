@@ -1,96 +1,106 @@
-
+# menuy.py - function style menu
+# Imports typically listed at top
+# each import enables us to use logic that has been abstracted to other files and folders
 from TT1 import fibonacci,list
 from TT2 import factorial, factors
-from TT3 import animation, matrix, swap, tree
-main_menu = []
+from TTO import animation, matrix, swap, tree
+
+
+
+# Main list of [Prompts, Actions]
+# Two styles are supported to execute abstracted logic
+# 1. file names will be run by exec(open("filename.py").read())
+# 2. function references will be executed directly file.function()
+main_menu = [
+    ["Swap", swap.driver],
+    ["Tree", tree.driver],
+    ["Matrix", matrix.driver],
+    ["Animation", animation.driver],
+]
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
-week0_sub_menu = [
-    ["Animation", animation.driver],
-    ["Tree", tree.driver],
-    ["Matrix", matrix.driver],
-    ["Swap", swap.driver],
-]
-
-week1_sub_menu = [
+sub_menu = [
     ["Fibonacci", fibonacci.driver],
     ["Lists", list.driver],
 ]
 
-week2_sub_menu = [
-    ["Factorials", factorial.driver],
+patterns_sub_menu = [
+    ["Factorial", factorial.driver],
     ["Factors", factors.driver],
-
-
-
 ]
 
+# Menu banner is typically defined by menu owner
 border = "=" * 25
-banner = f"\n{border}\nplease pick one\n{border}"
+banner = f"\n{border}\nPlease Select An Option\n{border}"
 
-
+# def menu
+# using main_menu list:
+# 1. main menu and submenu reference are created [Prompts, Actions]
+# 2. menu_list is sent as parameter to menuy.menu function that has logic for menu control
 def menu():
-    title = "function menu" + banner
+    title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["TT0",TT0])
-    menu_list.append(["TT1", TT1])
-    menu_list.append(["TT2", TT2])
+    menu_list.append(["Math", submenu])
+    menu_list.append(["Lists", patterns_submenu])
     buildMenu(title, menu_list)
 
+# def submenu
+# using sub menu list above:
+# sub_menu works similarly to menu()
+def submenu():
+    title = "Lists and Loops" + banner
+    buildMenu(title, sub_menu)
 
-def TT0():
-    title = "function submenu" + banner
-    buildMenu(title, week0_sub_menu)
-
-def TT1():
-    title = "Function Submenu" + banner
-    buildMenu(title, week1_sub_menu)
-
-def TT2():
-    title = "Function Submenu" + banner
-    buildMenu(title, week2_sub_menu)
+def patterns_submenu():
+    title = "Classy Functions Menu" + banner
+    buildMenu(title, patterns_sub_menu)
 
 def buildMenu(banner, options):
+    # header for menu
     print(banner)
+    # build a dictionary from options
     prompts = {0: ["Exit", None]}
     for op in options:
         index = len(prompts)
         prompts[index] = op
+
+    # print menu or dictionary
     for key, value in prompts.items():
         print(key, '->', value[0])
-    choice = input("input:")
 
+    # get user choice
+    choice = input("Type your choice> ")
+
+    # validate choice and run
+    # execute selection
+    # convert to number
     try:
         choice = int(choice)
-
-
-
         if choice == 0:
             # stop
-            print("you have left the program! thank you!")
-            exit()
             return
-
         try:
+            # try as function
             action = prompts.get(choice)[1]
-
             action()
-
-
         except TypeError:
-            try:
-
+            try:  # try as playground style
                 exec(open(action).read())
-
-
             except FileNotFoundError:
                 print(f"File not found!: {action}")
-
+            # end function try
+        # end prompts try
     except ValueError:
+        # not a number error
         print(f"Not a number: {choice}")
     except UnboundLocalError:
+        # traps all other errors
         print(f"Invalid choice: {choice}")
-    buildMenu(banner, options)
+    # end validation try
+
+    buildMenu(banner, options)  # recursion, start menu over again
+
+
 if __name__ == "__main__":
     menu()
