@@ -12,11 +12,10 @@ def driver():
 	 
 	print ("factorial of the number : %d" %fact) 
  
-fact()
+
 
 
 if __name__ == "__main__":
 	driver()
-
 
       
