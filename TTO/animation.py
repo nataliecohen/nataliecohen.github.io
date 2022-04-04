@@ -1,246 +1,47 @@
-import time
-import os
+def driver():
+    import time
 
-Color34 = "\u001b[34m"
-Color37 = "\u001b[37m"
+    ANSI_CLEAR_SCREEN = u"\u001B[2J"
+    ANSI_HOME_CURSOR = u"\u001B[0;0H\u001B[2"
+    OCEAN_COLOR = u"\u001B[44m\u001B[2D"
+    SHIP_COLOR1 = u"\033[0;31m"
+    SHIP_COLOR2 = u"\033[0;35m"
+    SHIP_COLOR3 = u"\033[0;93m"
+    RESET_COLOR = u"\u001B[0m\u001B[2D"
 
-
-# As you can see, its not very optimal 
-def ice1():
-    print("  + ")
-    print(" (  )   ")
-    print(" \  /  ")
-    print("  \/ ")
-    print("\u001b[34m -------------------------------------------- \u001b[37m")
-
-
-def ice2():
-    print("    + ")
-    print("   (  ) ")
-    print("   \  /   ")
-    print("    \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
+    def ocean_print():
+        print(ANSI_CLEAR_SCREEN, ANSI_HOME_CURSOR)
+        print("\n\n\n\n\n")
+        print(OCEAN_COLOR + "  " * 35)
 
 
-def ice3():
-    print("      + ")
-    print("     (  ) ")
-    print("     \  / ")
-    print("      \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
+    def ship_print(position):
+        print(ANSI_HOME_CURSOR)
+        print(SHIP_COLOR1, end="")
+        sp = " " * position
+        print(sp + "     +   ")
+        print(sp + "     +  ")
+        print(SHIP_COLOR2, end="")
+        print(sp + "   (  ) ")
+        print(sp + "   \  / ")
+        print(SHIP_COLOR3, end="")
+        print(sp + "    \/ ")
+        print(RESET_COLOR)
 
 
-def ice4():
-    print("         + ")
-    print("        (  ) ")
-    print("        \  / ")
-    print("         \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
+    ocean_print()
 
 
-def ice5():
-    print("            + ")
-    print("           (  ) ")
-    print("           \  / ")
-    print("            \/ ")
-    print("\u001b[34m -------------------------------------------- \u001b[37m")
+
+    start = 60
+    distance = -60
+    step = -1
 
 
-def ice6():
-    print("              + ")
-    print("             (  ) ")
-    print("             \  / ")
-    print("              \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
-
-
-def ice7():
-    print("                + ")
-    print("               (  ) ")
-    print("               \  / ")
-    print("                \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
-
-
-def ice8():
-    print("                 + ")
-    print("                (  ) ")
-    print("                \  / ")
-    print("                 \/ ")
-    print("\u001b[34m -------------------------------------------- \u001b[37m")
-
-
-def ice9():
-    print("                   + ")
-    print("                  (  ) ")
-    print("                  \  / ")
-    print("                   \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
-
-
-def ice10():
-    print("                     + ")
-    print("                    (  ) ")
-    print("                    \  / ")
-    print("                     \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
-
-
-def ice11():
-    print("                        + ")
-    print("                       (  ) ")
-    print("                       \  / ")
-    print("                        \/ ")
-    print("\u001b[34m -------------------------------------------- \u001b[37m")
-
-
-def ice12():
-    print("                          + ")
-    print("                         (  ) ")
-    print("                         \  / ")
-    print("                          \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
-
-
-def ice13():
-    print("                            + ")
-    print("                           (  ) ")
-    print("                           \  / ")
-    print("                            \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
-
-
-def ice14():
-    print("                              + ")
-    print("                             (  ) ")
-    print("                             \  / ")
-    print("                              \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
-
-
-def ice15():
-    print("                                + ")
-    print("                               (  ) ")
-    print("                               \  / ")
-    print("                                \/ ")
-    print("\u001b[34m -------------------------------------------- \u001b[37m")
-
-
-def ice16():
-    print("                                  + ")
-    print("                                 (  ) ")
-    print("                                 \  / ")
-    print("                                  \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
-
-
-def ice17():
-    print("                                    + ")
-    print("                                   (  ) ")
-    print("                                   \  / ")
-    print("                                    \/ ")
-    print("\u001b[34m -------------------------------------------- \u001b[37m")
-
-
-def ice18():
-    print("                                      + ")
-    print("                                     (  ) ")
-    print("                                     \  / ")
-    print("                                      \/ ")
-    print("\u001b[34m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[37m")
-
-
-def ice19():
-    print("                                        + ")
-    print("                                       (  ) ")
-    print("                                       \  / ")
-    print("                                        \/ ")
-    print("\u001b[34m -------------------------------------------- \u001b[37m")
-
-
-def ice20():
-    print("                                          + ")
-    print("                                         (  ) ")
-    print("                                         \  / ")
-    print("                                          \/ ")
-    print("\u001b[34m -------------------------------------------- \u001b[37m")
-
-
-os.system("clear")
-time.sleep(.1)
-ice1()
-time.sleep(.5)
-os.system("clear")
-ice2()
-time.sleep(.5)
-os.system("clear")
-ice3()
-time.sleep(.5)
-os.system("clear")
-ice4()
-time.sleep(.5)
-os.system("clear")
-ice5()
-time.sleep(.5)
-os.system("clear")
-ice6()
-time.sleep(.5)
-os.system("clear")
-ice7()
-time.sleep(.5)
-os.system("clear")
-ice8()
-time.sleep(.5)
-os.system("clear")
-ice9()
-time.sleep(.5)
-os.system("clear")
-ice10()
-time.sleep(.5)
-os.system("clear")
-ice11()
-time.sleep(.5)
-os.system("clear")
-ice12()
-time.sleep(.5)
-os.system("clear")
-ice13()
-time.sleep(.5)
-os.system("clear")
-ice14()
-time.sleep(.5)
-os.system("clear")
-ice15()
-time.sleep(.5)
-os.system("clear")
-ice16()
-time.sleep(.5)
-os.system("clear")
-ice17()
-time.sleep(.5)
-os.system("clear")
-ice18()
-time.sleep(.5)
-os.system("clear")
-ice19()
-time.sleep(.5)
-os.system("clear")
-ice20()
-time.sleep(.5)
-os.system("clear")
-print("WE ALL SCREAM FOR ICE CREAM")
-time.sleep(.5)
-os.system("clr")
-
+    for position in range(start, distance, step):
+        ship_print(position)
+        time.sleep(0.05)
 
 if __name__ == "__main__":
+    print("hello")
     driver()
-
-
-
-
-      
-
-    
- 
-           
