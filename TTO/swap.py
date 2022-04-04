@@ -1,23 +1,18 @@
+age1 = 32
+age2 = 18
 
-def swap (x,y):
-    q = x
-# we set one of our variables to a temporary variable
-    x = y
-#swap the original two variables
-    y = q
-#set y equal to the temp
+def swap(age1=32, age2=18, t=age1):
+    print('You chose Swap')
+    if age1 > age2:
+        age1 = age2
+        age2 = t
+    return age1, age2
 
-    return x,y
 
-def driver ():
-    x = 21
-y = 16
-print (x,y)
+def driver():
+    print(swap())
 
-a,b= swap(16,21)
-print(a, b)
-
+    print(age1,age2)
 
 if __name__ == "__main__":
     driver()
-
