@@ -1,17 +1,22 @@
-def driver():
-  num = int(input("Enter sequence length: "))
-  if num < 0:
-    print("Enter a number greater than 0")
-  else:
-    for n in range(num):
-      print(print_fib(n))
+class Fibonacci:
+  def __init__(self):
+      self.fiboSeq = [0, 1]
+ 
 
-def print_fib(i):
-  if i <= 1:  
-     return i  
-  else:  
-     return(print_fib(i-2) + print_fib(i-1))
+  def __call__(self, n):
+        if n < len(self.fiboSeq):
+            return self.fiboSeq[n]
+        else:
+            # Compute the requested Fibonacci number
+            fib_number = self(n - 1) + self(n - 2) # two recursive calls to self (__call__(self, n))
+            self.fiboSeq.append(fib_number) # builds list, with most nested of the calculations 1st... may hurt your head
+        return self.fiboSeq[n]
+
+fibo_of = Fibonacci() 
+def driver ():
+    print(fibo_of(5)) # object running __call__ method
 
 if __name__ == "__main__":
-    driver()
+  driver()
+
 
