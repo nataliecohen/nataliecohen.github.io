@@ -1,10 +1,10 @@
-def driver ():
-matrix = [[1,2,3,],
-          [4,5,6],
-          [7,8,9]]
-print(matrix)
+def driver():
 
+  import numpy as np
+  mat = np.array([[1, 3, 2], [5, 6, 4]])
+  print(mat)
 
 if __name__ == "__main__":
     driver()
+
 

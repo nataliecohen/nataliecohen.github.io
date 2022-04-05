@@ -1,18 +1,21 @@
-age1 = 32
-age2 = 18
-
-def swap(age1=32, age2=18, t=age1):
-    print('You chose Swap')
-    if age1 > age2:
-        age1 = age2
-        age2 = t
-    return age1, age2
-
-
+# Python program to swap two variables
 def driver():
-    print(swap())
 
-    print(age1,age2)
+ x = 5
+ y = 10
+
+# To take inputs from the user
+ x = input('Enter value of x: ')
+ y = input('Enter value of y: ')
+
+# create a temporary variable and swap the values
+ temp = x
+ x = y
+ y = temp
+
+ print('The value of x after swapping: {}'.format(x))
+ print('The value of y after swapping: {}'.format(y))
+
 
 if __name__ == "__main__":
-    driver()
+   driver()
