@@ -12,4 +12,4 @@ How to Prepare for May 9th AP Exam:
 - Look and review quizzes from trimester 1 from units 1 and 2
 - Attend the AP Live Review college board has at 5pm at least 2 times a week (if not 3)
 - Review Algoithmic tech talks 
-- Do test corrections for AP Final Quiz 1 to improve understanding 
+- Do test corrections for AP Final Quiz 1 to improve understanding (understand why I got those questions wrong along with learning the concepts and focusing my attentions to the concepts I got wrong)
