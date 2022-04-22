@@ -15,13 +15,13 @@ Full URL of the document:https://docs.google.com/document/d/1L2Llf_Dql2dJ8PDwaou
 
 ## Study Plan:
 
-##Week 1
+Week 1
 
 | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 | -------- | -------- | ------------ | --------- | ------ | --------- | ------- |
-| Attend AP Live Review College Board supplies | Test Corrections for Final Quiz Part One, work on Creat Task | Continue working in create task, attend AP Live Review on College Board | Begin revewing topics from Untis 1 and 2, look at old quizzes and tech talks | Continue to add notes to my journal and look at old notes and tech talks/quizzes | Finish working on Create Task | Finalize create task and send to Mr.M |
+| Attend AP Live Review College Board supplies | Test Corrections for Final Quiz Part One, work on Create Task | Continue working in create task, attend AP Live Review on College Board | Begin revewing topics from Untis 1 and 2, look at old quizzes and tech talks | Continue to add notes to my journal and look at old notes and tech talks/quizzes | Finish working on Create Task | Finalize create task and send to Mr.M |
 
-##Week 2 
+Week 2 
 
 | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 | -------- | -------- | ------------ | --------- | ------ | --------- | ------- |
