@@ -8,10 +8,9 @@ How to Prepare for May 9th AP Exam:
 
 Test Corrections: https://docs.google.com/document/d/1L2Llf_Dql2dJ8PDwaouIHWfhdzaKYJHZEVnp95aUQzE/edit
 
-Base url: http://www.example.com/docs/
-Full URL of the document:https://docs.google.com/document/d/1L2Llf_Dql2dJ8PDwaouIHWfhdzaKYJHZEVnp95aUQzE/edit 
-
-{google_docs}document.pdf{/google_docs}
+<div class="row justify-content-center" style="margin: 2%;">
+    <iframe height="1000px" width="700px" src="https://docs.google.com/document/d/1L2Llf_Dql2dJ8PDwaouIHWfhdzaKYJHZEVnp95aUQzE/edit?lite=true"></iframe>
+</div>
 
 ## Study Plan:
 
