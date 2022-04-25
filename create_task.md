@@ -70,6 +70,9 @@ print("Please run program again to play")
     menu()
 ```
 
+<div class="row justify-content-center" style="margin: 2%;">
+    <iframe height="1000px" width="700px" src="https://docs.google.com/document/d/1XbjeggfyTNitaru5avtg3ges8mtcbz3kn0M-yaQ0eno/edit?lite=true"></iframe>
+</div>
 
 <div class="row justify-content-center" style="margin: 2%;">
     <iframe height="1000px" width="700px" src="https://replit.com/@NatalieCohen/Create-Task-NC?v=1?lite=true"></iframe>
