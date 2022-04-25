@@ -1,6 +1,6 @@
 {% include navigation.html %}
 
-[Video](https://www.loom.com/share/c8275f4fe6524a16b2d1197e30d9d692) 
+- [Video](https://www.loom.com/share/c8275f4fe6524a16b2d1197e30d9d692) 
 
 ### Program overview:
 
