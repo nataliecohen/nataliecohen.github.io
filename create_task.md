@@ -2,15 +2,15 @@
 
 ### Program overview:
 
-This program will portray vacation suggestions based on your age and personality type. There are many different personality types that can cause conflict within each other. It is important in this day and age that people of different personality types (Personality type A,B,C or X) are separated from each other to make people more comfortable. We created a program that allows for people of different personality types to be able to be themselves, while surrounded by people who share the same interests.
+This program will portray dashes that represent the number of letters in a certain word. Today in the world, there is a very popular game called Wordle that many people play. I decided to take the idea of wordle and create my own word guessing game. There is a selection of words that are randomly selected. The user is given no hints and just begin to enter letters that they believe could be in the word. If they are correct, the user grows one step closer to guessing the correct word, but if they are wrong the user continues to input letters until told they are correct. This program is intented to be a game/puzzle used by the user. 
 
 #### Functionality of the Program: 
-This program includes a box to put your age, and a box to put your personality type and as a result they will be shown a box of where they should visit/vacation.
+This program has the user input letters from the alphabet and the output is the letters in the correct spot, or a message telling the user they are incorrect and to continue guessing. 
 
-- [Create Task Video](https://www.loom.com/share/ad243562f22e44ab80f333cb77e87833) 
-- [Create Task Written Answers](https://github.com/yolandayangg/n224p4-beans/wiki/Natalie-Create-Task-Write-Up)
-- [HTML Code](https://github.com/yolandayangg/n224p4-beans/blob/main/templates/Personal/createtaskmnn.html) 
-- [Python Code](https://github.com/yolandayangg/n224p4-beans/blob/main/createtaskmnn.py) 
+<div class="row justify-content-center" style="margin: 2%;">
+    <iframe height="1000px" width="700px" src="https://replit.com/@NatalieCohen/Create-Task-NC?v=1?lite=true"></iframe>
+</div>
+
 
 
 
