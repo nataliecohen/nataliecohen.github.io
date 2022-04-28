@@ -7,7 +7,7 @@ How to Prepare for May 9th AP Exam:
 - Come to tutorial to clear any confusion with topics 
 
 <div class="row justify-content-center" style="margin: 2%;">
-    <iframe height="1000px" width="700px" src="https://docs.google.com/document/d/1XbjeggfyTNitaru5avtg3ges8mtcbz3kn0M-yaQ0eno/edit?usp=sharing?lite=true"></iframe>
+    <iframe height="1000px" width="700px" src="https://docs.google.com/document/d/1L2Llf_Dql2dJ8PDwaouIHWfhdzaKYJHZEVnp95aUQzE/edit?usp=sharing?lite=true"></iframe>
 </div>
 
 ## Study Plan:
