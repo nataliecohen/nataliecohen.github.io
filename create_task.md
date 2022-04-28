@@ -1,6 +1,5 @@
 {% include navigation.html %}
 
-- [Video](https://www.loom.com/share/c8275f4fe6524a16b2d1197e30d9d692) 
 
 <div class="row justify-content-center" style="margin: 2%;">
     <iframe height="1000px" width="700px" src="https://youtu.be/shG98th4RC4?lite=true"></iframe>
