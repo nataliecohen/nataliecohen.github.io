@@ -23,3 +23,9 @@ Week 2
 | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 | -------- | -------- | ------------ | --------- | ------ | --------- | ------- |
 | Attend AP Live Reivew College Board supplies | Test corrections for Final Quiz Part 3 | Use crossover feedback to finalize my create task | Test Corrections for Final Quiz Part 4 | Attend AP Live Review College Board supplies | Look Over old units such as 1,2 and 3 | Continue to look at tech talks, journal notes, and quizzes on collegeboard|
+
+Week 3
+
+| Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
+| -------- | -------- | ------------ | --------- | ------ | --------- | ------- |
+| Attend AP Live Reivew College Board supplies | Take Final Quiz Part 4 | Submit my Create Task/ Finalize everything | Test Corrections for Final Quiz Part 4 | Attend AP Live Review College Board supplies | Look over all old units, journals, quizzes and watch videos to help my understandinf | Take the weekend to rest but also continue to look at material|
